@@ -56,7 +56,7 @@
               </div>
             </a>
           </div>
-          <div class="toggle-btn" @click="toggle_btn($event, index)">
+          <div class="toggle-btn">
            {{(btn==toggleBtn[index])?'收起':toggleBtn[index]}}
             <i @click.stop class="el-icon-arrow-down"></i>
           </div>
